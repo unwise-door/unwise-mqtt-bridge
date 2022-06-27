@@ -1,6 +1,6 @@
 {
   "name": "@unwise-door/unwise-mqtt-bridge",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Bridge for integrating Schneider Electric/Merten/Ritto Wiser™ Door products with home automation systems using MQTT.",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/unwise-door/unwise-mqtt-bridge#readme",
   "dependencies": {
     "homie-device": "^3.0.1",
-    "@unwise-door/unwise-controller": "^0.0.2"
+    "@unwise-door/unwise-controller": "^0.0.3"
   },
   "devDependencies": {
     "eslint": "^8.18.0",

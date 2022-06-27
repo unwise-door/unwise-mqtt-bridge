@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const HomieDevice = require('homie-device');
 const fs = require('fs').promises;
 const { WiserDoorController } = require('@unwise-door/unwise-controller');
