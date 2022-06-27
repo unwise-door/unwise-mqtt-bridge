@@ -1,7 +1,7 @@
 {
-  "name": "unwise-mqtt-bridge",
+  "name": "@unwise-door/unwise-mqtt-bridge",
   "version": "0.0.1",
-  "description": "Bridge for integrating Schneider Electric/Merten/Ritto Wiser™ Door products with home automation systems using MQTT",
+  "description": "Bridge for integrating Schneider Electric/Merten/Ritto Wiser™ Door products with home automation systems using MQTT.",
   "main": "index.js",
   "scripts": {
     "start": "node  --experimental-modules --es-module-specifier-resolution=node  index.js"
@@ -17,7 +17,10 @@
     "Wiser Door",
     "MQTT",
     "Home Automation",
-    "Homie"
+    "Homie",
+    "OpenHAB",
+    "HomeAssistant",
+    "Node-RED"
   ],
   "author": "Nils Schnabel",
   "license": "EPL-2.0",
@@ -27,7 +30,11 @@
   "homepage": "https://github.com/unwise-door/unwise-mqtt-bridge#readme",
   "dependencies": {
     "homie-device": "^3.0.1",
-    "sip.js": "^0.20.0",
-    "sipjs-udp-transport": "file:../sipjs-udp-transport"
+    "@unwise-door/unwise-controller": "^0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
